@@ -1,0 +1,15 @@
+.heroSection {
+  background-color: #111827;
+}
+.iconSize {
+  max-width: 40px;
+  height: 40px;
+  color: white;
+}
+.logoWrapper {
+  /* transform: rotateY(60deg); */
+  transform: rotateZ(270deg);
+  margin-top: 320px;
+  margin-bottom: 100px;
+  margin-left: -80px;
+}

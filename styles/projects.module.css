@@ -1,0 +1,13 @@
+.projectSection {
+  background-color: #111827;
+}
+.paragraph {
+  max-width: 54%;
+}
+.borderStyle {
+  border: 2px solid #1f2937;
+  padding: 40px;
+}
+.borderStyle:hover{
+    background: #1F2937;
+}
