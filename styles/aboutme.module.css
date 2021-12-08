@@ -17,3 +17,10 @@
   bottom: 150px;
   right: 48px;
 }
+@media screen and (max-width: 768px) {
+  .paragraphContent {
+    max-width: 49%;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}

@@ -21,6 +21,9 @@ module.exports = {
       lineHeight: {
         heading: "4.5rem",
       },
+      maxWidth: {
+        paragragraph: "75%",
+      },
     },
   },
   variants: {

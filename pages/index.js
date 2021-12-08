@@ -29,11 +29,11 @@ const Home = () => {
       {/* Project section start */}
       <section className={styles.projectSection}>
         <div className="container">
-          <div className={` flex flex-wrap`}>
+          <div className={` flex flex-wrap lg:flex-row sm:flex-col`}>
             <div
-              className={`${styles.borderStyle} w-1/2 flex flex-col justify-center items-center`}
+              className={`${styles.borderStyle} lg:w-1/2 flex flex-col justify-center items-center sm:w-full`}
             >
-              <h1 className="text-7xl font-bold text-center text-link-hover">
+              <h1 className="lg:text-7xl font-bold text-center text-link-hover sm:text-3xl">
                 {"<projects spotlight>"}
               </h1>
               <p
@@ -45,7 +45,7 @@ const Home = () => {
               </p>
             </div>
 
-            <div className={`${styles.borderStyle} w-1/2`}>
+            <div className={`${styles.borderStyle} lg:w-1/2 sm:w-full`}>
               <Project
                 width="230"
                 height="40"
@@ -58,7 +58,7 @@ const Home = () => {
           </div>
 
           <div className={`flex flex-wrap`}>
-            <div className={`${styles.borderStyle} w-1/2`}>
+            <div className={`${styles.borderStyle} lg:w-1/2 sm:w-full`}>
               <Project
                 width="230"
                 height="40"
@@ -68,7 +68,7 @@ const Home = () => {
                 paragraph="I designed and architected a highly interactive and robust learning platform with e-commerce and content management capabilities. "
               />
             </div>
-            <div className={`${styles.borderStyle} w-1/2`}>
+            <div className={`${styles.borderStyle} lg:w-1/2 sm:w-full`}>
               <Project
                 width="230"
                 height="40"
@@ -81,7 +81,7 @@ const Home = () => {
           </div>
 
           <div className={`flex flex-wrap`}>
-            <div className={`${styles.borderStyle} w-1/2`}>
+            <div className={`${styles.borderStyle} lg:w-1/2 sm:w-full`}>
               <Project
                 width="230"
                 height="40"
@@ -92,10 +92,10 @@ const Home = () => {
               />
             </div>
             <div
-              className={`${styles.borderStyle} w-1/2 flex justify-center items-center`}
+              className={`${styles.borderStyle} lg:w-1/2 flex justify-center items-center sm:w-full`}
             >
               <a className="text-center" href="#">
-                <h1 className="text-7xl font-bold text-center text-link-hover">
+                <h1 className="lg:text-7xl font-bold text-center text-link-hover sm:text-2xl">
                   {"View All -->"}
                 </h1>
               </a>
@@ -103,15 +103,15 @@ const Home = () => {
           </div>
           {/* partnership section compoennt calling */}
           <Partnership />
-          <div className="flex">
+          <div className="flex lg:flex-row sm:flex-col">
             {/* Content section start */}
-            <div className="flex w-1/2 border-2 border-border p-20">
+            <div className="flex lg:w-1/2 border-2 border-border p-20 sm:w-full">
               <Content
                 heading="This is what people say about me"
                 paragraph="Here are a few lines from people who I have worked with over the past 16+ years in my development career."
               />
             </div>
-            <div className="flex flex-col justify-between items-center text-2xl leading-10 mx-w-xsm w-1/2 border-2 border-border p-20">
+            <div className="flex flex-col justify-between items-center text-2xl leading-10 mx-w-xsm  lg:w-1/2 border-2 border-border p-20 sm:w-full">
               <p className="text-white text-center">
                 Kudos to a job well done.Arslan is a pleasure to work with and
                 only good things can be said on our experience with dealing with
@@ -131,8 +131,8 @@ const Home = () => {
             {/* Content section end */}
           </div>
           {/* business section start */}
-          <div className="flex">
-            <div className="flex flex-col w-1/2 border-2 border-border">
+          <div className="flex lg:flex-row sm:flex-col">
+            <div className="flex flex-col lg:w-1/2 border-2 border-border lg:order-1 sm:order-2 sm:w-full">
               <form className="p-10">
                 <lable className="text-gray-50 text-2xl"> Name</lable>
                 <input className="bg-gray-800 w-full h-14 mt-3 mb-10 text-white" />
@@ -145,7 +145,7 @@ const Home = () => {
                 </button>
               </form>
             </div>
-            <div className="flex w-1/2 border-2 border-border p-20">
+            <div className="flex lg:w-1/2 border-2 border-border p-20 lg:order-2 sm:w-full">
               <Content
                 heading="Let’s Talk Business"
                 paragraph="Now that you know a lot about me, let me know if you are interested to work with me."

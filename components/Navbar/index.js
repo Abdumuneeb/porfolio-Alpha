@@ -1,12 +1,20 @@
 import styles from "../../styles/navbar.module.css";
 import React from "react";
 import Link from "next/link";
+import MenuIcon from "@material-ui/icons/Menu";
 
 const Navbar = () => {
   return (
     <div>
       <section className={styles.navbarSection}>
-        <nav className="flex flex-row justify-end items-center bg-navbar-bg mx-auto">
+        <button className="block ml-auto md:hidden cursor-pointer">
+          <Link href="/MenuList">
+            <a>
+              <MenuIcon className="text-white" />
+            </a>
+          </Link>
+        </button>
+        <nav className="hidden md:flex flex-row justify-end items-center bg-navbar-bg mx-auto">
           <ul className="flex flex-row">
             <li className="mr-6 py-6">
               <Link href={"/"}>

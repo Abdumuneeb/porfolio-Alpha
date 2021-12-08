@@ -9,7 +9,7 @@ const Hero = () => {
       <section className={styles.heroSection}>
         <div className="container">
           <div className="flex">
-            <div className={styles.logoWrapper}>
+            <div className={`${styles.logoWrapper} sm:mt-0 `}>
               <span>
                 <a href="#">
                   <TwitterIcon
@@ -36,7 +36,7 @@ const Hero = () => {
               </span>
             </div>
             <div>
-              <h3 className="text-6 mt-96 text-2xl ml-16 text-headingThree">
+              <h3 className="lg:text-6 lg:mt-96 lg:text-2xl lg:ml-16 text-headingThree sm:mt-20">
                 Veteran Systems Architect
               </h3>
             </div>

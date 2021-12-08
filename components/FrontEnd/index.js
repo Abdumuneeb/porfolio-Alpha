@@ -18,8 +18,14 @@ const TilesDisplay = ({
       <section className="bg-navbar-bg">
         <div className="container">
           {/* warpper flex */}
-          <div className={`${reverse || ""}  flex justify-between`}>
-            <div className={` ${styles.borderWrapper} flex flex-col w-1/2`}>
+          <div
+            className={`${
+              `lg:${reverse}` || ""
+            }  flex justify-between lg:flex-row  sm:flex-col`}
+          >
+            <div
+              className={` ${styles.borderWrapper} flex flex-col w-1/2 lg:order-1  sm:w-full sm:order-2`}
+            >
               <div className={` flex flex-nowrap justify-between mt-8 mb-16`}>
                 <Image
                   className={styles.imgStyling}
@@ -146,9 +152,9 @@ const TilesDisplay = ({
               </div>
             </div>
             <div
-              className={`${styles.borderWrapper}  flex  flex-col justify-center items-center  w-1/2 `}
+              className={`${styles.borderWrapper}  flex  flex-col justify-center items-center  w-1/2 lg:order-2 sm:order-1 sm:w-full  `}
             >
-              <h1 className="text-7xl  text-link-hover font-bold">
+              <h1 className="lg:text-7xl  text-link-hover lg:max-w-lg font-bold sm:text-3xl sm:max-w-sm">
                 {` ${heading || "<back-end>"}`}
               </h1>
               <p

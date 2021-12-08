@@ -27,7 +27,7 @@ const Project = ({
           ></Image>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-6xl text-headingThree mt-10 font-bold">
+          <h1 className="text-6xl text-headingThree mt-10 font-bold sm:text-3xl">
             {heading}
           </h1>
           <p
