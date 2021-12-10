@@ -92,7 +92,7 @@ const Home = () => {
               />
             </div>
             <div
-              className={`${styles.borderStyle} lg:w-1/2 flex justify-center items-center sm:w-full`}
+              className={`${styles.borderStyle} w-full lg:w-1/2 flex justify-center items-center sm:w-full`}
             >
               <a className="text-center" href="#">
                 <h1 className="lg:text-7xl font-bold text-center text-link-hover sm:text-2xl">
@@ -103,7 +103,7 @@ const Home = () => {
           </div>
           {/* partnership section compoennt calling */}
           <Partnership />
-          <div className="flex lg:flex-row sm:flex-col">
+          <div className="flex flex-col lg:flex-row sm:flex-col">
             {/* Content section start */}
             <div className="flex lg:w-1/2 border-2 border-border p-20 sm:w-full">
               <Content
@@ -112,7 +112,7 @@ const Home = () => {
               />
             </div>
             <div className="flex flex-col justify-between items-center text-2xl leading-10 mx-w-xsm  lg:w-1/2 border-2 border-border p-20 sm:w-full">
-              <p className="text-white text-center">
+              <p className="text-white text-center text-xl sm:text-2xl">
                 Kudos to a job well done.Arslan is a pleasure to work with and
                 only good things can be said on our experience with dealing with
                 Arslan.He went over and above our requirements and communication
@@ -131,8 +131,8 @@ const Home = () => {
             {/* Content section end */}
           </div>
           {/* business section start */}
-          <div className="flex lg:flex-row sm:flex-col">
-            <div className="flex flex-col lg:w-1/2 border-2 border-border lg:order-1 sm:order-2 sm:w-full">
+          <div className="flex  flex-col lg:flex-row sm:flex-col">
+            <div className="flex flex-col order-2 lg:w-1/2 border-2 border-border lg:order-1 sm:order-2 sm:w-full">
               <form className="p-10">
                 <lable className="text-gray-50 text-2xl"> Name</lable>
                 <input className="bg-gray-800 w-full h-14 mt-3 mb-10 text-white" />

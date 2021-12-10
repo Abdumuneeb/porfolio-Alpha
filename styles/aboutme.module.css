@@ -24,3 +24,27 @@
     line-height: 25px;
   }
 }
+@media screen and (max-width: 640px) {
+  .nameWrapper {
+    top: -422px;
+    font-size: 40px;
+  }
+  .paragraphContent {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 373px) {
+  .contentWrapper {
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width: 433px) {
+  .contentWrapper {
+    margin-top: 150px;
+  }
+}
+@media screen and (min-width: 450px) {
+  .contentWrapper {
+    margin-top: 300px;
+  }
+}

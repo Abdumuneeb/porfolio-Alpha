@@ -10,8 +10,8 @@ const Partnership = () => {
           {"<partnerships>"}
         </h1>
       </div>
-      <div className="flex flex-auto flex-wrap md:flex-wrap">
-        <div className="border-2  border-border p-20  lg:w-full md:1/5 sm:w-1/3">
+      <div className="flex flex-col flex-auto flex-wrap md:flex-wrap sm:flex-row">
+        <div className="border-2 text-center  border-border p-20  lg:w-1/5 md:1/5 sm:w-1/3">
           <Image
             src="/brand1-icon.png"
             alt="brand-icons"
@@ -20,7 +20,7 @@ const Partnership = () => {
           ></Image>
         </div>
 
-        <div className="border-2 border-border p-20 w-full sm:w-1/3">
+        <div className="border-2  text-center border-border p-20 lg:w-1/5 sm:w-1/3">
           <Image
             src="/brand2-icon.png"
             alt="brand-icons"
@@ -28,7 +28,7 @@ const Partnership = () => {
             height="70"
           />
         </div>
-        <div className="border-2 border-border p-20 w-full sm:w-1/3">
+        <div className="border-2 text-center border-border p-20 lg:w-1/5 sm:w-1/3">
           <Image
             src="/brand3-icon.png"
             alt="brand-icons"
@@ -36,7 +36,7 @@ const Partnership = () => {
             height="70"
           />
         </div>
-        <div className="border-2 border-border p-20 w-full sm:w-1/3">
+        <div className="border-2 text-center border-border p-20 lg:w-1/5 sm:w-1/3">
           <Image
             src="/brand4-icon.png"
             alt="brand-icons"
@@ -45,7 +45,7 @@ const Partnership = () => {
           />
         </div>
 
-        <div className="border-2 border-border p-20 lg:w-full sm:w-1/3 sm:flex-auto">
+        <div className="border-2 text-center border-border p-20 lg:w-1/5 sm:w-1/3 sm:flex-auto">
           <Image
             src="/brand5-icon.png"
             alt="brand-icons"
